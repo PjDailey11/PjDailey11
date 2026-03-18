@@ -84,13 +84,11 @@ A curated newsletter surfacing what actually matters in Austin — food, events,
 Playing D2 ball at **St. Edward's University (Hilltoppers)** in Austin, TX. Baseball taught me the same things good engineering requires: repetition, discipline, and performing under pressure.
 
 ```
-Season Stats  ─────────────────────────────────────────
+  ─────────────────────────────────────────
   School    St. Edward's University — NCAA D2
   Team      Hilltoppers
   Profile   gohilltoppers.com/sports/baseball/roster
 ```
-
-> *"The numbers don't lie in baseball or in code."*
 
 ---
 
