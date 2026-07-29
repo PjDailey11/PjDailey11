@@ -58,14 +58,8 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 ## ⚾ Baseball/Athletics | NCAA Division II Student-Athlete
 
-> Balanced a 4.0 GPA in CS & Math with 5:00 AM weight training, daily 4+ hour practice rotations, and Lone Star Conference game schedules.
+> Student-Athlete with a 4.0 GPA in CS & Math attending to 5:00 AM weight training, daily 4+ hour practice rotations, and Lone Star Conference game schedules.
 
-```
-  ─────────────────────────────────────────
-  School    St. Edward's University — NCAA D2
-  Team      Hilltoppers
-  Profile   gohilltoppers.com/sports/baseball/roster
-```
 
 ---
 
