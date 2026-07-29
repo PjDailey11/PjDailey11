@@ -33,9 +33,9 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 > **Memory & Concurrency:** Paired custom hash maps with contiguous memory-pooled doubly linked lists to preserve CPU cache locality. Routed live trades through a Single-Producer/Single-Consumer (SPSC) lock-free queue to stream execution updates to 1,000+ concurrent clients with <5ms network jitter.
 
-### Hardware-Accelerated CUDA Inference Engineine | C++23, CUDA, NVIDIA TensorRT, Computer Vision 
+### Hardware-Accelerated CUDA Inference Engine | C++23, CUDA, NVIDIA TensorRT, Computer Vision 
 
-> **Edge Performance:**Built a bare-metal computer vision pipeline in C++ to replace high-overhead Python runtimes.
+> **Edge Performance:** Built a bare-metal computer vision pipeline in C++ to replace high-overhead Python runtimes.
 
 > **GPU Graph Management:** Authored custom CUDA kernels for parallel image pre-processing and Non-Maximum Suppression (NMS), maintaining the entire execution graph on an RTX 3060 Ti to sustain a strict 2.5ms frame latency.
 
@@ -43,7 +43,7 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 > **Isolation & Speed:** : Orchestrated an isolated execution framework evaluating LLM code payloads in pre-warmed container pools (<150ms spin-up latency).
 
-> **Security Pipeline:** Built a low-latency AST parser (<500$\mu s$ evaluation) to sanitize untrusted scripts, streaming stdout/stderr over low-overhead IPC pipelines.
+> **Security Pipeline:** Built a low-latency AST parser (<500micro-second evaluation) to sanitize untrusted scripts, streaming stdout/stderr over low-overhead IPC pipelines.
 
 ---
 
