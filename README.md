@@ -49,10 +49,10 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 ## Tech Stack
 
-* **Languages**     :: C23, C++23, Java, CUDA, x86 NASM Assembly, Python, TypeScript, SQL
-* **Systems/HPC**   :: SIMD (AVX-512/AVX2), POSIX mmap, Memory Pools, SPSC Lock-Free Queues, gRPC
-* **GPU & AI**      :: TensorRT, CUDA Kernels, PyTorch, Computer Vision Pipelines
-* **Profiling/Dev** :: Perf, Valgrind, Gprof, CMake, Linux, Docker, WebSockets
+* **Languages**     : C23, C++23, Java, CUDA, x86 NASM Assembly, Python, TypeScript, SQL
+* **Systems/HPC**   : SIMD (AVX-512/AVX2), POSIX mmap, Memory Pools, SPSC Lock-Free Queues, gRPC
+* **GPU & AI**      : TensorRT, CUDA Kernels, PyTorch, Computer Vision Pipelines
+* **Profiling/Dev** : Perf, Valgrind, Gprof, CMake, Linux, Docker, WebSockets
 
 ---
 
@@ -66,16 +66,6 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
   Team      Hilltoppers
   Profile   gohilltoppers.com/sports/baseball/roster
 ```
-
----
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=PjDailey11&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=58a6ff&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PjDailey11&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&langs_count=6" />
-
-</div>
 
 ---
 
