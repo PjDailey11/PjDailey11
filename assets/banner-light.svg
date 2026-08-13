@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="PJ Dailey — Systems Software &amp; AI Infrastructure Engineer">
+  <defs>
+    <clipPath id="clip0"><rect class="reveal0" x="28" y="118" width="0" height="18"/></clipPath>
+    <clipPath id="clip1"><rect class="reveal1" x="28" y="118" width="0" height="18"/></clipPath>
+    <clipPath id="clip2"><rect class="reveal2" x="28" y="118" width="0" height="18"/></clipPath>
+    <clipPath id="clip3"><rect class="reveal3" x="28" y="118" width="0" height="18"/></clipPath>
+  </defs>
+
+  <style>
+    text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      fill: #1F2328;
+    }
+
+    @keyframes phraseFade {
+      0%     { opacity: 0; }
+      0.83%  { opacity: 1; }
+      20.83% { opacity: 1; }
+      25%    { opacity: 0; }
+    }
+    .phrase0 { animation: phraseFade 36s linear infinite; animation-delay: 0s; }
+    .phrase1 { animation: phraseFade 36s linear infinite; animation-delay: 9s; }
+    .phrase2 { animation: phraseFade 36s linear infinite; animation-delay: 18s; }
+    .phrase3 { animation: phraseFade 36s linear infinite; animation-delay: 27s; }
+
+    @keyframes type0 {
+      0%    { width: 0px; }
+      0.83% { width: 0px; }
+      6.39% { width: 373px; animation-timing-function: steps(41, jump-end); }
+    }
+    @keyframes type1 {
+      0%    { width: 0px; }
+      0.83% { width: 0px; }
+      6.39% { width: 355px; animation-timing-function: steps(39, jump-end); }
+    }
+    @keyframes type2 {
+      0%    { width: 0px; }
+      0.83% { width: 0px; }
+      6.39% { width: 364px; animation-timing-function: steps(40, jump-end); }
+    }
+    @keyframes type3 {
+      0%    { width: 0px; }
+      0.83% { width: 0px; }
+      6.39% { width: 373px; animation-timing-function: steps(41, jump-end); }
+    }
+    .reveal0 { animation: type0 36s linear infinite; animation-delay: 0s; }
+    .reveal1 { animation: type1 36s linear infinite; animation-delay: 9s; }
+    .reveal2 { animation: type2 36s linear infinite; animation-delay: 18s; }
+    .reveal3 { animation: type3 36s linear infinite; animation-delay: 27s; }
+
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .cursor { animation: blink 1s steps(2, jump-none) infinite; fill: #9A5B0E; }
+  </style>
+
+  <rect x="0" y="0" width="880" height="200" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="878" height="198" rx="6" fill="none" stroke="#D0D7DE"/>
+
+  <text x="28" y="34" font-size="11" letter-spacing="2" fill="#57606A">ENGINEERING DATASHEET</text>
+  <text x="852" y="34" font-size="12" letter-spacing="1.5" fill="#9A5B0E" text-anchor="end">PJD // REV.3</text>
+
+  <text x="28" y="80" font-size="34" font-weight="700" fill="#1F2328">PJ DAILEY</text>
+  <text x="28" y="104" font-size="13" letter-spacing="2" fill="#57606A">SYSTEMS SOFTWARE &amp; AI INFRASTRUCTURE ENGINEER</text>
+
+  <g class="phrase0" opacity="0">
+    <g clip-path="url(#clip0)">
+      <text x="28" y="132" font-size="15">SIMD &amp; AVX-512 Vector Search — 120 GFLOPS</text>
+    </g>
+    <rect class="cursor" x="405" y="118" width="2" height="15"/>
+  </g>
+  <g class="phrase1" opacity="0">
+    <g clip-path="url(#clip1)">
+      <text x="28" y="132" font-size="15">Lock-Free Execution — 3µs Order Latency</text>
+    </g>
+    <rect class="cursor" x="387" y="118" width="2" height="15"/>
+  </g>
+  <g class="phrase2" opacity="0">
+    <g clip-path="url(#clip2)">
+      <text x="28" y="132" font-size="15">CUDA Inference Pipelines — 2.5ms / Frame</text>
+    </g>
+    <rect class="cursor" x="396" y="118" width="2" height="15"/>
+  </g>
+  <g class="phrase3" opacity="0">
+    <g clip-path="url(#clip3)">
+      <text x="28" y="132" font-size="15">Sandboxed AI Runtimes — Sub-150ms Spin-Up</text>
+    </g>
+    <rect class="cursor" x="405" y="118" width="2" height="15"/>
+  </g>
+
+  <line x1="28" y1="148" x2="852" y2="148" stroke="#D0D7DE"/>
+
+  <text x="28" y="170" font-size="10" letter-spacing="1" fill="#9A5B0E">THROUGHPUT</text>
+  <text x="28" y="188" font-size="15" font-weight="600" fill="#1F2328">120 GFLOPS</text>
+
+  <text x="246" y="170" font-size="10" letter-spacing="1" fill="#9A5B0E">LATENCY</text>
+  <text x="246" y="188" font-size="15" font-weight="600" fill="#1F2328">3 µs</text>
+
+  <text x="464" y="170" font-size="10" letter-spacing="1" fill="#9A5B0E">FRAME</text>
+  <text x="464" y="188" font-size="15" font-weight="600" fill="#1F2328">2.5 ms</text>
+
+  <text x="682" y="170" font-size="10" letter-spacing="1" fill="#9A5B0E">SPIN-UP</text>
+  <text x="682" y="188" font-size="15" font-weight="600" fill="#1F2328">&lt;150 ms</text>
+</svg>
