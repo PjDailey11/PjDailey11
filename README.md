@@ -14,9 +14,6 @@
 
 Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) and NCAA Division II student-athlete. Specializing in low-level systems, hardware acceleration, and deterministic execution pipelines. 
 
-* **Focus Areas:** Explicit memory management, custom SIMD vectorization (AVX2/AVX-512), lock-free concurrent data structures, and edge GPU inference.
-* **Core Philosophy:** Minimize cache misses, bypass high-overhead runtime abstractions, and profile at the hardware clock-cycle level (`rdtsc`, `perf`).
-
 ---
 
 ## Current Projects
@@ -53,12 +50,6 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 * **Systems/HPC**   : SIMD (AVX-512/AVX2), POSIX mmap, Memory Pools, SPSC Lock-Free Queues, gRPC
 * **GPU & AI**      : TensorRT, CUDA Kernels, PyTorch, Computer Vision Pipelines
 * **Profiling/Dev** : Perf, Valgrind, Gprof, CMake, Linux, Docker, WebSockets
-
----
-
-## ⚾ Baseball/Athletics | NCAA Division II Student-Athlete
-
-> Student-Athlete with a 4.0 GPA in CS & Math attending to 5:00 AM weight training, daily 4+ hour practice rotations, and Lone Star Conference game schedules.
 
 
 ---
