@@ -59,14 +59,13 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 ### Sandboxed AI Execution Runtime
 
-![Python](https://img.shields.io/badge/Python-30363D?style=flat-square&logo=python&logoColor=C9D1D9)
-![Docker](https://img.shields.io/badge/Docker-30363D?style=flat-square&logo=docker&logoColor=C9D1D9)
-![IPC](https://img.shields.io/badge/IPC-30363D?style=flat-square)
-![AST Parsing](https://img.shields.io/badge/AST%20Parsing-30363D?style=flat-square)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Firecracker](https://img.shields.io/badge/Firecracker-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-1D1E20?style=flat-square)
+![KVM](https://img.shields.io/badge/KVM-E34F26?style=flat-square)
 
-> **Isolation & Speed:** Orchestrated an isolated execution framework evaluating LLM code payloads in pre-warmed container pools (<150ms spin-up latency).
-
-> **Security Pipeline:** Built a low-latency AST parser (<500 microsecond evaluation) to sanitize untrusted scripts, streaming stdout/stderr over low-overhead IPC pipelines.
+> **MicroVM State Snapshotting:** Utilizes AWS Firecracker and KVM to bypass standard boot sequences, restoring snapshotted virtual machine memory states to achieve sub-**125ms** execution latency.
+> **Kernel-Level Hardening:** Implements custom **Seccomp-BPF** policies to strictly allow-list system calls, neutralizing remote code execution (RCE) and container escape vectors directly at the OS kernel level.
 
 `§ STACK`
 
