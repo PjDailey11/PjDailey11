@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg" role="img"
+<svg width="880" height="176" viewBox="0 0 880 176" xmlns="http://www.w3.org/2000/svg" role="img"
      aria-label="PJ Dailey — Systems Software &amp; AI Infrastructure Engineer">
   <defs>
-    <clipPath id="clip0"><rect class="reveal0" x="28" y="118" width="0" height="18"/></clipPath>
-    <clipPath id="clip1"><rect class="reveal1" x="28" y="118" width="0" height="18"/></clipPath>
-    <clipPath id="clip2"><rect class="reveal2" x="28" y="118" width="0" height="18"/></clipPath>
-    <clipPath id="clip3"><rect class="reveal3" x="28" y="118" width="0" height="18"/></clipPath>
+    <clipPath id="clip0"><rect class="reveal0" x="28" y="88" width="0" height="18"/></clipPath>
+    <clipPath id="clip1"><rect class="reveal1" x="28" y="88" width="0" height="18"/></clipPath>
+    <clipPath id="clip2"><rect class="reveal2" x="28" y="88" width="0" height="18"/></clipPath>
+    <clipPath id="clip3"><rect class="reveal3" x="28" y="88" width="0" height="18"/></clipPath>
   </defs>
 
   <style>
@@ -19,6 +19,7 @@
       0.83%  { opacity: 1; }
       20.83% { opacity: 1; }
       25%    { opacity: 0; }
+      100%   { opacity: 0; }
     }
     .phrase0 { animation: phraseFade 36s linear infinite; animation-delay: 0s; }
     .phrase1 { animation: phraseFade 36s linear infinite; animation-delay: 9s; }
@@ -29,21 +30,25 @@
       0%    { width: 0px; }
       0.83% { width: 0px; }
       6.39% { width: 373px; animation-timing-function: steps(41, jump-end); }
+      100%  { width: 373px; }
     }
     @keyframes type1 {
       0%    { width: 0px; }
       0.83% { width: 0px; }
       6.39% { width: 355px; animation-timing-function: steps(39, jump-end); }
+      100%  { width: 355px; }
     }
     @keyframes type2 {
       0%    { width: 0px; }
       0.83% { width: 0px; }
       6.39% { width: 364px; animation-timing-function: steps(40, jump-end); }
+      100%  { width: 364px; }
     }
     @keyframes type3 {
       0%    { width: 0px; }
       0.83% { width: 0px; }
       6.39% { width: 373px; animation-timing-function: steps(41, jump-end); }
+      100%  { width: 373px; }
     }
     .reveal0 { animation: type0 36s linear infinite; animation-delay: 0s; }
     .reveal1 { animation: type1 36s linear infinite; animation-delay: 9s; }
@@ -54,51 +59,75 @@
     .cursor { animation: blink 1s steps(2, jump-none) infinite; fill: #E8A33D; }
   </style>
 
-  <rect x="0" y="0" width="880" height="200" fill="#0D1117"/>
-  <rect x="1" y="1" width="878" height="198" rx="6" fill="none" stroke="#30363D"/>
+  <rect x="0" y="0" width="880" height="176" fill="#0D1117"/>
+  <rect x="1" y="1" width="878" height="174" rx="6" fill="none" stroke="#30363D"/>
 
-  <text x="28" y="34" font-size="11" letter-spacing="2" fill="#8B949E">ENGINEERING DATASHEET</text>
-  <text x="852" y="34" font-size="12" letter-spacing="1.5" fill="#E8A33D" text-anchor="end">PJD // REV.3</text>
-
-  <text x="28" y="80" font-size="34" font-weight="700" fill="#C9D1D9">PJ DAILEY</text>
-  <text x="28" y="104" font-size="13" letter-spacing="2" fill="#8B949E">SYSTEMS SOFTWARE &amp; AI INFRASTRUCTURE ENGINEER</text>
+  <text x="28" y="50" font-size="34" font-weight="700" fill="#C9D1D9">PJ DAILEY</text>
+  <text x="28" y="74" font-size="13" letter-spacing="2" fill="#8B949E">SYSTEMS SOFTWARE &amp; AI INFRASTRUCTURE ENGINEER</text>
 
   <g class="phrase0" opacity="0">
     <g clip-path="url(#clip0)">
-      <text x="28" y="132" font-size="15">SIMD &amp; AVX-512 Vector Search — 120 GFLOPS</text>
+      <text x="28" y="102" font-size="15">SIMD &amp; AVX-512 Vector Search — 120 GFLOPS</text>
     </g>
-    <rect class="cursor" x="405" y="118" width="2" height="15"/>
+    <rect class="cursor" x="405" y="88" width="2" height="15"/>
+
+    <text x="28" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">THROUGHPUT</text>
+    <text x="28" y="158" font-size="15" font-weight="600" fill="#C9D1D9">120 GFLOPS</text>
+    <text x="246" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">QPS</text>
+    <text x="246" y="158" font-size="15" font-weight="600" fill="#C9D1D9">15,000/s</text>
+    <text x="464" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">LATENCY</text>
+    <text x="464" y="158" font-size="15" font-weight="600" fill="#C9D1D9">&lt;500 ms</text>
+    <text x="682" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">INDEX</text>
+    <text x="682" y="158" font-size="15" font-weight="600" fill="#C9D1D9">O(log N)</text>
   </g>
+
   <g class="phrase1" opacity="0">
     <g clip-path="url(#clip1)">
-      <text x="28" y="132" font-size="15">Lock-Free Execution — 3µs Order Latency</text>
+      <text x="28" y="102" font-size="15">Lock-Free Execution — 3µs Order Latency</text>
     </g>
-    <rect class="cursor" x="387" y="118" width="2" height="15"/>
+    <rect class="cursor" x="387" y="88" width="2" height="15"/>
+
+    <text x="28" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">LATENCY</text>
+    <text x="28" y="158" font-size="15" font-weight="600" fill="#C9D1D9">3 µs</text>
+    <text x="246" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">JITTER</text>
+    <text x="246" y="158" font-size="15" font-weight="600" fill="#C9D1D9">&lt;5 ms</text>
+    <text x="464" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">CLIENTS</text>
+    <text x="464" y="158" font-size="15" font-weight="600" fill="#C9D1D9">1,000+</text>
+    <text x="682" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">EXEC</text>
+    <text x="682" y="158" font-size="15" font-weight="600" fill="#C9D1D9">O(1)</text>
   </g>
+
   <g class="phrase2" opacity="0">
     <g clip-path="url(#clip2)">
-      <text x="28" y="132" font-size="15">CUDA Inference Pipelines — 2.5ms / Frame</text>
+      <text x="28" y="102" font-size="15">CUDA Inference Pipelines — 2.5ms / Frame</text>
     </g>
-    <rect class="cursor" x="396" y="118" width="2" height="15"/>
+    <rect class="cursor" x="396" y="88" width="2" height="15"/>
+
+    <text x="28" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">FRAME</text>
+    <text x="28" y="158" font-size="15" font-weight="600" fill="#C9D1D9">2.5 ms</text>
+    <text x="246" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">GPU</text>
+    <text x="246" y="158" font-size="15" font-weight="600" fill="#C9D1D9">RTX 3060 Ti</text>
+    <text x="464" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">KERNELS</text>
+    <text x="464" y="158" font-size="15" font-weight="600" fill="#C9D1D9">Custom CUDA</text>
+    <text x="682" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">NMS</text>
+    <text x="682" y="158" font-size="15" font-weight="600" fill="#C9D1D9">Parallel</text>
   </g>
+
   <g class="phrase3" opacity="0">
     <g clip-path="url(#clip3)">
-      <text x="28" y="132" font-size="15">Sandboxed AI Runtimes — Sub-150ms Spin-Up</text>
+      <text x="28" y="102" font-size="15">Sandboxed AI Runtimes — Sub-150ms Spin-Up</text>
     </g>
-    <rect class="cursor" x="405" y="118" width="2" height="15"/>
+    <rect class="cursor" x="405" y="88" width="2" height="15"/>
+
+    <text x="28" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">SPIN-UP</text>
+    <text x="28" y="158" font-size="15" font-weight="600" fill="#C9D1D9">&lt;150 ms</text>
+    <text x="246" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">PARSE</text>
+    <text x="246" y="158" font-size="15" font-weight="600" fill="#C9D1D9">&lt;500 µs</text>
+    <text x="464" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">POOL</text>
+    <text x="464" y="158" font-size="15" font-weight="600" fill="#C9D1D9">Pre-warmed</text>
+    <text x="682" y="140" font-size="10" letter-spacing="1" fill="#E8A33D">TRANSPORT</text>
+    <text x="682" y="158" font-size="15" font-weight="600" fill="#C9D1D9">IPC</text>
   </g>
 
-  <line x1="28" y1="148" x2="852" y2="148" stroke="#30363D"/>
-
-  <text x="28" y="170" font-size="10" letter-spacing="1" fill="#E8A33D">THROUGHPUT</text>
-  <text x="28" y="188" font-size="15" font-weight="600" fill="#C9D1D9">120 GFLOPS</text>
-
-  <text x="246" y="170" font-size="10" letter-spacing="1" fill="#E8A33D">LATENCY</text>
-  <text x="246" y="188" font-size="15" font-weight="600" fill="#C9D1D9">3 µs</text>
-
-  <text x="464" y="170" font-size="10" letter-spacing="1" fill="#E8A33D">FRAME</text>
-  <text x="464" y="188" font-size="15" font-weight="600" fill="#C9D1D9">2.5 ms</text>
-
-  <text x="682" y="170" font-size="10" letter-spacing="1" fill="#E8A33D">SPIN-UP</text>
-  <text x="682" y="188" font-size="15" font-weight="600" fill="#C9D1D9">&lt;150 ms</text>
+  <line x1="28" y1="118" x2="852" y2="118" stroke="#30363D"/>
 </svg>
