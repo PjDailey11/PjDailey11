@@ -59,6 +59,7 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 ![KVM](https://img.shields.io/badge/KVM-E34F26?style=flat-square)
 
 > **Hypervisor:** Engineered a bare-metal execution hypervisor using AWS Firecracker and KVM, dropping untrusted code evaluation cold-starts to sub-**125ms** via memory state snapshotting and restoration.
+
 > **Kernel-Level Hardening:** Implements custom **Seccomp-BPF** kernel filters to enforce strict system call allow-lists, proactively neutralizing remote code execution (RCE) and container escape vectors.
 
 ---
