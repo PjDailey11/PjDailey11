@@ -103,6 +103,5 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=PjDailey11&style=flat-square&color=E8A33D&label=PROFILE+VIEWS)
 
-<sub>`// EOF`</sub>
 
 </div>
