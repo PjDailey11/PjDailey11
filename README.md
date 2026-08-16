@@ -8,15 +8,14 @@
 
 </div>
 
-`ABOUT`
-
----
+# About Me
 
 Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) and NCAA Division II student-athlete. Specializing in low-level systems, hardware acceleration, and deterministic execution pipelines.
 
-`PROJECTS`
-
 ---
+
+# Projects
+
 
 ### SIMD-Accelerated Distributed Vector Database
 
@@ -62,16 +61,41 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 > **Hypervisor:** Engineered a bare-metal execution hypervisor using AWS Firecracker and KVM, dropping untrusted code evaluation cold-starts to sub-**125ms** via memory state snapshotting and restoration.
 > **Kernel-Level Hardening:** Implements custom **Seccomp-BPF** kernel filters to enforce strict system call allow-lists, proactively neutralizing remote code execution (RCE) and container escape vectors.
 
-`§ STACK`
-
 ---
 
-| Category | Stack |
-|---|---|
-| Languages | C23, C++23, Java, CUDA, x86 NASM Assembly, Python, TypeScript, SQL |
-| Systems / HPC | SIMD (AVX-512 / AVX2), POSIX mmap, Memory Pools, SPSC Lock-Free Queues, gRPC |
-| GPU & AI | TensorRT, CUDA Kernels, PyTorch, Computer Vision Pipelines |
-| Profiling / Dev | Perf, Valgrind, Gprof, CMake, Linux, Docker, WebSockets |
+# Stack
+
+### Languages
+![C23](https://img.shields.io/badge/C23-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++23](https://img.shields.io/badge/C++23-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+![x86 NASM Assembly](https://img.shields.io/badge/x86_NASM_Assembly-%231E1E1E.svg?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%234479A1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Systems / HPC
+![SIMD (AVX-512 / AVX2)](https://img.shields.io/badge/SIMD_(AVX--512_/_AVX2)-%232C2C2C.svg?style=for-the-badge)
+![POSIX mmap](https://img.shields.io/badge/POSIX_mmap-%232C2C2C.svg?style=for-the-badge)
+![Memory Pools](https://img.shields.io/badge/Memory_Pools-%232C2C2C.svg?style=for-the-badge)
+![SPSC Lock-Free Queues](https://img.shields.io/badge/SPSC_Lock--Free_Queues-%232C2C2C.svg?style=for-the-badge)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
+
+### GPU & AI
+![TensorRT](https://img.shields.io/badge/TensorRT-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+![CUDA Kernels](https://img.shields.io/badge/CUDA_Kernels-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Computer Vision Pipelines](https://img.shields.io/badge/Computer_Vision_Pipelines-%235C3EE8.svg?style=for-the-badge&logo=opencv&logoColor=white)
+
+### Profiling / Dev
+![Perf](https://img.shields.io/badge/Perf-%231E1E1E.svg?style=for-the-badge)
+![Valgrind](https://img.shields.io/badge/Valgrind-%231E1E1E.svg?style=for-the-badge)
+![Gprof](https://img.shields.io/badge/Gprof-%231E1E1E.svg?style=for-the-badge)
+![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-%231E1E1E.svg?style=for-the-badge)
 
 ---
 
