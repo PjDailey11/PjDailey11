@@ -1,10 +1,5 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" width="880" alt="PJ Dailey — Systems Software &amp; AI Infrastructure Engineer. Specializing in SIMD and hardware acceleration, deterministic low-latency execution, CUDA/GPU inference pipelines, and sandboxed AI execution runtimes.">
-</picture>
-
 # PJ Dailey
 **Systems Software & AI Infrastructure Engineer**
 
@@ -13,13 +8,13 @@
 
 </div>
 
-`§ ABOUT`
+`ABOUT`
 
 ---
 
 Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) and NCAA Division II student-athlete. Specializing in low-level systems, hardware acceleration, and deterministic execution pipelines.
 
-`§ PROJECTS`
+`PROJECTS`
 
 ---
 
