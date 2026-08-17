@@ -10,7 +10,7 @@
 
 # About Me
 
-Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) and NCAA Division II student-athlete[cite: 3]. Specializing in bare-metal systems, kernel-bypass networking, and ultra-low-latency deterministic execution pipelines.
+Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) and NCAA Division II student-athlete specializing in bare-metal systems, kernel-bypass networking, and ultra-low-latency deterministic execution pipelines.
 
 ---
 
