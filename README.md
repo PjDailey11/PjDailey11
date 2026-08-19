@@ -24,11 +24,11 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 ![POSIX](https://img.shields.io/badge/POSIX-B85C38?style=flat-square)
 ![HNSW](https://img.shields.io/badge/HNSW-8E44AD?style=flat-square)
 
-> **Throughput:** Engineered a vector database core in C, bypassing standard math libraries with custom AVX2/AVX-512 SIMD intrinsics to achieve a computational throughput of 120 GFLOPS and sub-500-microsecond distance calculations[cite: 3].
+> **Throughput:** Engineered a vector database core in C, bypassing standard math libraries with custom AVX2/AVX-512 SIMD intrinsics to achieve a computational throughput of 120 GFLOPS and sub-500-microsecond distance calculations.
 
-> **Storage & Persistence:** Integrated POSIX memory-mapped files (mmap) for zero-copy disk persistence, utilizing reader-writer locks to safely synchronize concurrent reads and avoid full-dataset RAM loads during search queries[cite: 3].
+> **Storage & Persistence:** Integrated POSIX memory-mapped files (mmap) for zero-copy disk persistence, utilizing reader-writer locks to safely synchronize concurrent reads and avoid full-dataset RAM loads during search queries.
 
-> **Indexing Strategy:** Replaced linear scans with a Hierarchical Navigable Small World (HNSW) graph index to guarantee O(log N) search latency, utilizing a gRPC network layer to sustain 15,000 queries per second (QPS) during concurrent batch insertions[cite: 3].
+> **Indexing Strategy:** Replaced linear scans with a Hierarchical Navigable Small World (HNSW) graph index to guarantee O(log N) search latency, utilizing a gRPC network layer to sustain 15,000 queries per second (QPS) during concurrent batch insertions.
 
 ### Ultra-Low-Latency C++23 Matching Engine
 
@@ -37,11 +37,11 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 ![io_uring](https://img.shields.io/badge/io__uring-16A085?style=flat-square)
 ![Cache Optimization](https://img.shields.io/badge/Cache%20Optimization-2496ED?style=flat-square)
 
-> **Execution:** Engineered a zero-allocation C++23 matching engine achieving <280ns P99 order execution latency, benchmarked via rdtsc hardware counters and Google Benchmark[cite: 3].
+> **Execution:** Engineered a zero-allocation C++23 matching engine achieving <280ns P99 order execution latency, benchmarked via rdtsc hardware counters and Google Benchmark.
 
-> **Memory Architecture:** Eliminated hot-path heap allocations and L1/L2 cache misses by architecting a price-indexed flat array book backed by pre-allocated intrusive ring-buffer memory pools[cite: 3].
+> **Memory Architecture:** Eliminated hot-path heap allocations and L1/L2 cache misses by architecting a price-indexed flat array book backed by pre-allocated intrusive ring-buffer memory pools.
 
-> **Network Stack:** Bypassed Linux kernel network stack latency by implementing an io_uring ring-buffer ingestion pipeline parsing zero-copy Simple Binary Encoding (SBE) frames[cite: 3].
+> **Network Stack:** Bypassed Linux kernel network stack latency by implementing an io_uring ring-buffer ingestion pipeline parsing zero-copy Simple Binary Encoding (SBE) frames.
 
 ### High-Frequency CUDA Inference Engine
 
@@ -50,11 +50,11 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 ![TensorRT](https://img.shields.io/badge/TensorRT-4B7A00?style=flat-square)
 ![GPUDirect RDMA](https://img.shields.io/badge/GPUDirect%20RDMA-7C4DFF?style=flat-square)
 
-> **Execution Pipeline:** Engineered a bare-metal C++/CUDA inference pipeline processing time-series market data with sub-15-microsecond tail latency on an RTX 3060 Ti[cite: 3].
+> **Execution Pipeline:** Engineered a bare-metal C++/CUDA inference pipeline processing time-series market data with sub-15-microsecond tail latency on an RTX 3060 Ti.
 
-> **Kernel Bypass:** Bypassed CPU routing by utilizing GPUDirect RDMA to map network packets directly from the NIC into GPU memory[cite: 3].
+> **Kernel Bypass:** Bypassed CPU routing by utilizing GPUDirect RDMA to map network packets directly from the NIC into GPU memory.
 
-> **Quantization:** Accelerated model execution by quantizing PyTorch architectures to INT8 via custom TensorRT entropy calibration, maximizing Tensor Core throughput[cite: 3].
+> **Quantization:** Accelerated model execution by quantizing PyTorch architectures to INT8 via custom TensorRT entropy calibration, maximizing Tensor Core throughput.
 
 ### Deterministic Quant Backtesting Hypervisor
 
@@ -63,11 +63,11 @@ Computer Science & Mathematics student at St. Edward's University (4.0/4.0 GPA) 
 ![eBPF](https://img.shields.io/badge/eBPF-1D1E20?style=flat-square)
 ![Seccomp](https://img.shields.io/badge/Seccomp-E34F26?style=flat-square)
 
-> **Hypervisor Isolation:** Engineered a bare-metal execution hypervisor using AWS Firecracker and KVM to isolate and evaluate untrusted quantitative trading models[cite: 3].
+> **Hypervisor Isolation:** Engineered a bare-metal execution hypervisor using AWS Firecracker and KVM to isolate and evaluate untrusted quantitative trading models.
 
-> **Snapshot Restoration:** Reduced microVM snapshot restoration latency to sub-5ms by overriding host OS page faults with a custom Rust userspace handler via userfaultfd[cite: 3].
+> **Snapshot Restoration:** Reduced microVM snapshot restoration latency to sub-5ms by overriding host OS page faults with a custom Rust userspace handler via userfaultfd.
 
-> **Zero-Copy Injection:** Achieved true zero-copy market data injection by mapping host-backed physical memory directly into the guest address space via virtio-pmem, completely bypassing socket buffers[cite: 3].
+> **Zero-Copy Injection:** Achieved true zero-copy market data injection by mapping host-backed physical memory directly into the guest address space via virtio-pmem, completely bypassing socket buffers.
 
 ---
 
